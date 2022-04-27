@@ -53,4 +53,5 @@ Important! If you set the `debug` to `true`, the bruteforce will take much longe
 <h1 align="center">
 <img alt="logo" src="https://user-images.githubusercontent.com/101858241/165581593-ecb68b97-4405-4cb3-a316-b737202e8b7f.png"/>
 </h1>
-#### Julia is Cool Hehe 😙
+
+###### Julia is Cool Hehe 😙
