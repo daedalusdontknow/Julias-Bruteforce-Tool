@@ -43,10 +43,10 @@ Important! If you set the `debug` to `true`, the bruteforce will take much longe
 	- `I do not recommend using this project at the moment, as it is very poorly programmed so far and is only a BETA version.`
 
 - If you found a bug
-	- If you have found a bug, feel free to report it via my GitHub profile, my mail `daedalusdontknow@gmx.net` or my discord `PhilippG#0887`, thank you.
+	- If you have found a bug, feel free to report it via my GitHub profile, my mail `daedalusdontknow@gmx.de` or my discord `PhilippG#0887`, thank you.
 
 - Feedback
-	- I always appreciate constructive feedback, feel free to send it to me via my GitHub profile, my mail `daedalusdontknow@gmx.net` or via my discord `PhilippG#0887`.
+	- I always appreciate constructive feedback, feel free to send it to me via my GitHub profile, my mail `daedalusdontknow@gmx.de` or via my discord `PhilippG#0887`.
 	- Please no feedback yet that the code sucks, I know that myself haha
 
 
