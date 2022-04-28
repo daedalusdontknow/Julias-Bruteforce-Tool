@@ -27,8 +27,7 @@ public class Core2 extends Thread {
 				loop(index + 1);
 				daedalus.Main.PrintLog(string.toString());
 			if(string.toString().equals(daedalus.Main.password)) {
-				System.err.println("password found: " + string);
-                System.err.println("It took: " + daedalus.Main.convertmillis(System.currentTimeMillis() - daedalus.Main.start));
+				daedalus.Main.PrintTime(string.toString(), daedalus.Main.convertmillis(System.currentTimeMillis() - daedalus.Main.start));
 				System.exit(0);
 			}
 		}

@@ -1,12 +1,12 @@
 package daedalus;
 
 public class Main {
-        public static String password = "~~~";
+        public static String password = "JULIA";
         public static long start;
 
         static boolean debug = false;
 
-        static int cores = 6; //number of cores to use 2, 3, 4, 6
+        static int cores = 2;
         
         public static void main(String[] args) {
 
@@ -106,32 +106,37 @@ public class Main {
 
         }
         
-        public static String convertmillis(long input) {
+        public static String convertmillis(long input) 
+        {
             int days = 0, hours = 0, minutes = 0, seconds = 0, millis = 0;
                         
             int day = 86400000;
             int hour = 3600000;
             int minute = 60000;
             int second = 1000;
-                    
-                       
-            if(input >= day) {
+                                     
+            if(input >= day) 
+            {
                  days = (int) (input / day);
                  millis = (int) (input % day);
-            } else 
+            } else {
                 millis = (int) input;
+            }
                            
-            if(millis >= hour) {
+            if(millis >= hour) 
+            {
                  hours = millis / hour;
                  millis = millis% hour;
             }
                        
-            if(millis >= minute) {
+            if(millis >= minute) 
+            {
                  minutes = millis / minute;
                  millis = millis % minute;
             }
             
-            if(millis >= second) {
+            if(millis >= second) 
+            {
                 seconds = millis / second;
                 millis = millis % second;
             }
@@ -143,14 +148,15 @@ public class Main {
         System.err.println("Error: " + error);
     }
 
-    public static void PrintInfo(String info) {
-        System.out.println("Info: " + info);
-    }
-
     public static void PrintLog(String log) {
         if(debug){
             System.out.println("Log: " + log);
         }
+    }
+
+    public static void PrintTime(String password, String time) {
+        System.out.println("Password found: " + password);
+        System.out.println("It took: " + time);
     }
 
 }
